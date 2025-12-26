@@ -1,48 +1,29 @@
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/matsuzaka-yuki/mizuki) theme.
+本博客基于 **Astro** 框架下的 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) 主题构建。特别感谢所有Mizuki项目的贡献者。感兴趣可以去点个Star
 
 ::github{repo="matsuzaka-yuki/Mizuki"}
 
-## 🌟 Theme Features
-
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
-
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
 
 
+你好！很高兴在互联网这片信息大海中见到你。我们的世界无限广阔，相遇即是缘分。这里可以是你刷累视频后的歇脚地，也可以是你畅所欲言的交流圈。我很乐意在这里与你们一起分享故事。
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+你可能知道我是一位音乐制作人，但我并非唯热爱于写曲子。2016年1月1日，我拥有了人生第一台电脑，装机接网的当天下午，我就被一个叫“Internet Explorer”的玩意着迷了。还记得那会放学第一件事就是打开记下好久的hao123导航网址，随便翻翻便如周游世界一般，忘了时间和作业，整个下午就这样过去了，有N次作业我到现在还没补完。也不知道我现在补完交过去老师会是什么表情（开玩笑的）。
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
+那台白得泛黄的大头机就这样填满了我小学时期所有的欢乐。目前我记不清楚那台主机被我弄蓝屏过多少次，但我相信我吃过的竹笋炒肉次数没那么少。我也记不清我在贴吧大神的指引下免过夺少皮肉之苦，但我清楚我拿满分的次数没那么多。我在内涵段子的短视频里学会了重装系统，在天涯论坛的百年坟帖里学会了自己修wifi，后来还在Bilibili大神指导下成功点亮了我的第一台主机。我也曾中招过软件站里的下崽器不止百次，被某synaptics.exe整的日夜难寐，中过5次勒索病毒，一款小鸟壁纸被我卸载了20多次……我是最教科书式的“野路子出身”，却也是连着十多年的电教委员、同学眼里的“电脑大神”。
 
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+后来我上了高中，晚自习这个东西几乎杜绝了我继续整电脑的可能性。我也就去与笔山与题海搏斗了。在那时，星期天的一个下午已是我为数不多的能玩手机的时间。但日复一日的压力让我再没办法与技术共舞，即便收藏夹里永远躺着的Python教程吃灰，大部分时间还是在抖音或明日方舟里度过的了。高考结束后，我再打开那已蒙上尘灰的笔记本电脑，此时的我却与那些大学前从未碰过电脑的“IT盲”一般，仿佛那几年的快乐时光再不属于我了。当时我尝试装黑苹果的clover界面上，我是叫天天不应叫地地不灵。我尝试在记忆中寻找那些大神的位置，得到的却是天涯的闭站，Bilibili的变味，贴吧的广告糊脸……
+
+我终于意识到：这里早已不再是家。疫情仿佛如一道横断山脉将互联网时代切成两半。“8友”们的沙发水楼盖过了求问者的声音，百度搜软件的前条也都变成了李鬼公司的谋财之道。曾经的知识圣地，如今堕落为广告的苗床。恍如隔世的三年，物是人非的不仅是现实。
+
+我开始逃亡，逃亡的是荒诞的现实。可我却再找不到记忆中的快乐，人总是美化自己过去的记忆。我去访问了我曾经流连忘返的博客，可它们要么倒闭要么停更，剩下的也在推销着一些兼职，奄奄似的苟活着。所以我建立了自己的博客，想整理一些我喜欢的东西，或是软件、网站，以及一些现在已经找不到了的迷失的数据。本站终于在2026年的元旦上线，也以此纪念我第一台电脑就任十周年。
+
+上个月，在我手上被整废的电脑已经来到两位数了。大家要以我为反例，拆后盖之前一定要先取消静电。现在我手上的是一台标准的游戏本。它强大的CPU与显卡终于能让我做到许多之前没办法做的事。如今的我，可以无压力开顶配光影，可以畅玩3A，可以用先进的CUDA玩AI，亦能载动之前我没法启动的许多VST插件，让我的音乐再上一个水平。可真当我做到这些时，我却有点恍惚。从懵懂无知，到掌握我想要的一切，我花了十年整的时间，10台电脑，5部智能手机，10余本理论书，还有数不尽探究电脑的日日夜夜。太多事情改变了我太多。如果你们想了解的话，后面我再细细讲给你们听。
+
+你看到了这里，谢谢你，朋友，你愿意听我讲完这冗长又流水账一般的废话，在它背后也不过是千千万万个你已经厌烦了的普通人故事的翻版。我很开心你耐心地听我倾诉，但我的故事没有讲完，距离句号的起笔还有很早。“降临”到来之前，我会去多看看世界，看看人们还能留给我多少震撼。计算机社讲台的底下，那儿有一双双炯炯有神的眼睛，他们的故事则是我的Branch，我也一样要去看看。当然还有你的故事。我们的相逢便是最大的缘分。
+
+江湖路远，感谢相伴！
+
+2026年1月1日
 
 ---
 
