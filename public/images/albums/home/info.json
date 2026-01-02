@@ -1,0 +1,10 @@
+{
+	"title": "生活杂玩",
+	"hidden": false,
+	"description": "世界很大，我们得去看看",
+	"date": "2026-01-01",
+	"location": "iPhone 6s",
+	"tags": ["照片", "生活"],
+	"layout": "masonry",
+	"columns": 3
+}

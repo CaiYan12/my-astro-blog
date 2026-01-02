@@ -137,21 +137,21 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "WindowsIt's Life Album", // 主页横幅主标题
+			title: "WindowsIt's Album", // 主页横幅主标题
 
 			subtitle: [
-				"昨天平步青云，今天就掉在泥里。",
-				"只需要糟糕的一天，再理性的人也会变成疯子。",
-				"情分被消耗殆尽，缘分便走到了终点。没有谁对谁错。",
-				"而我光着身子出生，眼下也是光身。我既不赔本，也无利可赢。",
-				"我生来是桑丘，我打算到死还是个桑丘。",
+				"别害怕生活，拥抱生活。",
+				"享受生活，开怀大笑。",
+				"生活不会取悦你，你要去享受它。",
+				"挣到足够的钱，去旅行，去闲着。",
+				"并没有什么特别的理由，只是喜欢到远一点的地方。",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 
-				speed: 100, // 打字速度（毫秒）
+				speed: 150, // 打字速度（毫秒）
 				deleteSpeed: 50, // 删除速度（毫秒）
-				pauseTime: 5000, // 完全显示后的暂停时间（毫秒）
+				pauseTime: 7000, // 完全显示后的暂停时间（毫秒）
 			},
 		},
 
@@ -175,12 +175,11 @@ export const siteConfig: SiteConfig = {
 	showCoverInContent: true, // 在文章内容页显示文章封面
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
-		// 留空以使用默认 favicon
-		// {
-		//   src: '/favicon/icon.png',    // 图标文件路径
-		//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		//   sizes: '32x32',              // 可选，图标大小
-		// }
+		{
+			src: "/favicon/icon.ico", // 图标文件路径
+			theme: "light", // 可选，指定主题 'light' | 'dark'
+			sizes: "32x32", // 可选，图标大小
+		},
 	],
 
 	// 字体配置
@@ -227,7 +226,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
 		enable: true, // 启用轮播
-		interval: 5, // 轮播间隔时间（秒）
+		interval: 6, // 轮播间隔时间（秒）
 	},
 	zIndex: -1, // 层级，确保壁纸在背景层
 	opacity: 0.8, // 壁纸透明度
@@ -270,7 +269,7 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:person",
 			children: [
 				{
-					name: "追番",
+					name: "追漫",
 					url: "/anime/",
 					icon: "material-symbols:movie",
 				},
@@ -298,12 +297,12 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:info",
 			children: [
 				{
-					name: "About",
+					name: "关于",
 					url: "/about/",
 					icon: "material-symbols:person",
 				},
 				{
-					name: "Friends",
+					name: "友链",
 					url: "/friends/",
 					icon: "material-symbols:group",
 				},
@@ -421,7 +420,8 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "网站公告", // 公告标题
-	content: "灯火之下，繁华之角，江湖路远，感谢相伴。\n这里常更新一些个人拙见，交流发言请遵守中华人民共和国相关法律法规。", // 公告内容
+	content:
+		"灯火之下，繁华之角，江湖路远，感谢相伴。这里常更新一些个人拙见，交流发言请遵守中华人民共和国相关法律法规。", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -443,7 +443,8 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 
 export const footerConfig: FooterConfig = {
 	enable: false, // 是否启用Footer HTML注入功能
-	customHtml: "", // HTML格式的自定义页脚信息，例如备案号等，默认留空
+	customHtml:
+		"<p>Build with Astro by <a href='https://github.com/matsuzaka-yuki/Mizuki'>Mizuki Theme</a>.</p>", // HTML格式的自定义页脚信息，例如备案号等，默认留空
 	// 也可以直接编辑 FooterConfig.html 文件来添加备案号等自定义内容
 	// 注意：若 customHtml 不为空，则使用 customHtml 中的内容；若 customHtml 留空，则使用 FooterConfig.html 文件中的内容
 	// FooterConfig.html 可能会在未来的某个版本弃用

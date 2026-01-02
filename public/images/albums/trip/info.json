@@ -1,0 +1,10 @@
+{
+	"title": "旅途风光",
+	"hidden": false,
+	"description": "世界很大，我们得去看看",
+	"date": "2026-01-01",
+	"location": "QZone",
+	"tags": ["照片", "旅游"],
+	"layout": "masonry",
+	"columns": 3
+}
