@@ -15,10 +15,14 @@ export interface DiaryItem {
 const diaryData: DiaryItem[] = [
 	{
 		id: 1,
-		content:
-			"万物生发复归根，凡事从此始。2026，元旦快乐。",
-		date: "2026-01-01T00:0:02Z",
+		content: "万物生发复归根，凡事从此始。2026，元旦快乐。",
+		date: "2026-01-01T00:01:02Z",
 		images: ["/images/diary/2026/1.jpg"],
+	},
+	{
+		id: 2,
+		content: "经过几天的挣扎，本站终于顺利上线与vercel了",
+		date: "2026-01-02T09:12:22Z",
 	},
 ];
 
